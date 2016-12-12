@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		554035BF1DFE1179009C7CE5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554035BE1DFE1179009C7CE5 /* User.swift */; };
+		558A18B81DFCD19E00EFBA58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 558A18B71DFCD19E00EFBA58 /* GoogleService-Info.plist */; };
+		558A18B91DFCD19E00EFBA58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 558A18B71DFCD19E00EFBA58 /* GoogleService-Info.plist */; };
+		55A3E3F41DFD0E9600BFBEC6 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A3E3F31DFD0E9600BFBEC6 /* Patient.swift */; };
 		55AC41FD1DFCD01200EB562D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AC41FC1DFCD01200EB562D /* AppDelegate.swift */; };
-		55AC41FF1DFCD01200EB562D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AC41FE1DFCD01200EB562D /* ViewController.swift */; };
+		55AC41FF1DFCD01200EB562D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AC41FE1DFCD01200EB562D /* LoginViewController.swift */; };
 		55AC42021DFCD01200EB562D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55AC42001DFCD01200EB562D /* Main.storyboard */; };
 		55AC42041DFCD01200EB562D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55AC42031DFCD01200EB562D /* Assets.xcassets */; };
 		55AC42071DFCD01200EB562D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55AC42051DFCD01200EB562D /* LaunchScreen.storyboard */; };
 		55AC42121DFCD01300EB562D /* eHealthCareAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AC42111DFCD01300EB562D /* eHealthCareAppUITests.swift */; };
+		55D035CC1DFDB897004309DF /* PatientListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D035CB1DFDB897004309DF /* PatientListViewController.swift */; };
+		55D035CE1DFDC056004309DF /* PatientViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D035CD1DFDC056004309DF /* PatientViewCell.swift */; };
+		BF6B34C554CD20125AF8E2B2 /* Pods_eHealthCareAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76B63A94DAF662D83063C6D /* Pods_eHealthCareAppUITests.framework */; };
+		E50DBC61A2A78B0A77A70779 /* Pods_eHealthCareApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5EF41CEE8D8990201694D8C /* Pods_eHealthCareApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F73CA1F8A7650B7372929C2 /* Pods-eHealthCareAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eHealthCareAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eHealthCareAppUITests/Pods-eHealthCareAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3866DA9F04B66F4E09135B23 /* Pods-eHealthCareAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eHealthCareAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-eHealthCareAppUITests/Pods-eHealthCareAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		554035BE1DFE1179009C7CE5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		558A18B71DFCD19E00EFBA58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		55A3E3F31DFD0E9600BFBEC6 /* Patient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
 		55AC41F91DFCD01200EB562D /* eHealthCareApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eHealthCareApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55AC41FC1DFCD01200EB562D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		55AC41FE1DFCD01200EB562D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55AC41FE1DFCD01200EB562D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		55AC42011DFCD01200EB562D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55AC42031DFCD01200EB562D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55AC42061DFCD01200EB562D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +49,12 @@
 		55AC420D1DFCD01300EB562D /* eHealthCareAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eHealthCareAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55AC42111DFCD01300EB562D /* eHealthCareAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eHealthCareAppUITests.swift; sourceTree = "<group>"; };
 		55AC42131DFCD01300EB562D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55D035CB1DFDB897004309DF /* PatientListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientListViewController.swift; sourceTree = "<group>"; };
+		55D035CD1DFDC056004309DF /* PatientViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientViewCell.swift; sourceTree = "<group>"; };
+		941539E9D1DEAC884C7997FE /* Pods-eHealthCareApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eHealthCareApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eHealthCareApp/Pods-eHealthCareApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A57571885F82ED81C9885AD5 /* Pods-eHealthCareApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eHealthCareApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-eHealthCareApp/Pods-eHealthCareApp.release.xcconfig"; sourceTree = "<group>"; };
+		C5EF41CEE8D8990201694D8C /* Pods_eHealthCareApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eHealthCareApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76B63A94DAF662D83063C6D /* Pods_eHealthCareAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eHealthCareAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E50DBC61A2A78B0A77A70779 /* Pods_eHealthCareApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +70,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF6B34C554CD20125AF8E2B2 /* Pods_eHealthCareAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18E9B44A4618F25A9C541572 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5EF41CEE8D8990201694D8C /* Pods_eHealthCareApp.framework */,
+				C76B63A94DAF662D83063C6D /* Pods_eHealthCareAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		55AC41F01DFCD01200EB562D = {
 			isa = PBXGroup;
 			children = (
 				55AC41FB1DFCD01200EB562D /* eHealthCareApp */,
 				55AC42101DFCD01300EB562D /* eHealthCareAppUITests */,
 				55AC41FA1DFCD01200EB562D /* Products */,
+				B9EA537FF462F16B4EE93224 /* Pods */,
+				18E9B44A4618F25A9C541572 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +110,16 @@
 			isa = PBXGroup;
 			children = (
 				55AC41FC1DFCD01200EB562D /* AppDelegate.swift */,
-				55AC41FE1DFCD01200EB562D /* ViewController.swift */,
+				55AC41FE1DFCD01200EB562D /* LoginViewController.swift */,
+				55D035CB1DFDB897004309DF /* PatientListViewController.swift */,
+				55D035CD1DFDC056004309DF /* PatientViewCell.swift */,
+				55A3E3F31DFD0E9600BFBEC6 /* Patient.swift */,
 				55AC42001DFCD01200EB562D /* Main.storyboard */,
 				55AC42031DFCD01200EB562D /* Assets.xcassets */,
 				55AC42051DFCD01200EB562D /* LaunchScreen.storyboard */,
+				558A18B71DFCD19E00EFBA58 /* GoogleService-Info.plist */,
 				55AC42081DFCD01200EB562D /* Info.plist */,
+				554035BE1DFE1179009C7CE5 /* User.swift */,
 			);
 			path = eHealthCareApp;
 			sourceTree = "<group>";
@@ -96,6 +133,17 @@
 			path = eHealthCareAppUITests;
 			sourceTree = "<group>";
 		};
+		B9EA537FF462F16B4EE93224 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				941539E9D1DEAC884C7997FE /* Pods-eHealthCareApp.debug.xcconfig */,
+				A57571885F82ED81C9885AD5 /* Pods-eHealthCareApp.release.xcconfig */,
+				1F73CA1F8A7650B7372929C2 /* Pods-eHealthCareAppUITests.debug.xcconfig */,
+				3866DA9F04B66F4E09135B23 /* Pods-eHealthCareAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55AC42161DFCD01300EB562D /* Build configuration list for PBXNativeTarget "eHealthCareApp" */;
 			buildPhases = (
+				BAA3133B193AE2729026C933 /* [CP] Check Pods Manifest.lock */,
 				55AC41F51DFCD01200EB562D /* Sources */,
 				55AC41F61DFCD01200EB562D /* Frameworks */,
 				55AC41F71DFCD01200EB562D /* Resources */,
+				7CA357DB0E62DA51DBAD77FC /* [CP] Embed Pods Frameworks */,
+				E4A55DAC22AE9CEF2C1F9091 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55AC42191DFCD01300EB562D /* Build configuration list for PBXNativeTarget "eHealthCareAppUITests" */;
 			buildPhases = (
+				AD1D5C5861320CE651E68086 /* [CP] Check Pods Manifest.lock */,
 				55AC42091DFCD01300EB562D /* Sources */,
 				55AC420A1DFCD01300EB562D /* Frameworks */,
 				55AC420B1DFCD01300EB562D /* Resources */,
+				60633C5C9E0CC63A84A7B683 /* [CP] Embed Pods Frameworks */,
+				47CB4A3CBA03BE12153E85E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,6 +200,7 @@
 				TargetAttributes = {
 					55AC41F81DFCD01200EB562D = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QQDL49Z2BR;
 					};
 					55AC420C1DFCD01300EB562D = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -178,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55AC42071DFCD01200EB562D /* LaunchScreen.storyboard in Resources */,
+				558A18B81DFCD19E00EFBA58 /* GoogleService-Info.plist in Resources */,
 				55AC42041DFCD01200EB562D /* Assets.xcassets in Resources */,
 				55AC42021DFCD01200EB562D /* Main.storyboard in Resources */,
 			);
@@ -187,18 +243,116 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				558A18B91DFCD19E00EFBA58 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47CB4A3CBA03BE12153E85E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eHealthCareAppUITests/Pods-eHealthCareAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60633C5C9E0CC63A84A7B683 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eHealthCareAppUITests/Pods-eHealthCareAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CA357DB0E62DA51DBAD77FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eHealthCareApp/Pods-eHealthCareApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD1D5C5861320CE651E68086 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BAA3133B193AE2729026C933 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4A55DAC22AE9CEF2C1F9091 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eHealthCareApp/Pods-eHealthCareApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		55AC41F51DFCD01200EB562D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55AC41FF1DFCD01200EB562D /* ViewController.swift in Sources */,
+				55AC41FF1DFCD01200EB562D /* LoginViewController.swift in Sources */,
+				55D035CE1DFDC056004309DF /* PatientViewCell.swift in Sources */,
+				554035BF1DFE1179009C7CE5 /* User.swift in Sources */,
 				55AC41FD1DFCD01200EB562D /* AppDelegate.swift in Sources */,
+				55D035CC1DFDB897004309DF /* PatientListViewController.swift in Sources */,
+				55A3E3F41DFD0E9600BFBEC6 /* Patient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,28 +479,35 @@
 		};
 		55AC42171DFCD01300EB562D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 941539E9D1DEAC884C7997FE /* Pods-eHealthCareApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QQDL49Z2BR;
 				INFOPLIST_FILE = eHealthCareApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mapd.centennial.eHealthCareApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		55AC42181DFCD01300EB562D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A57571885F82ED81C9885AD5 /* Pods-eHealthCareApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QQDL49Z2BR;
 				INFOPLIST_FILE = eHealthCareApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mapd.centennial.eHealthCareApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
 		55AC421A1DFCD01300EB562D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F73CA1F8A7650B7372929C2 /* Pods-eHealthCareAppUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = eHealthCareAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -358,6 +519,7 @@
 		};
 		55AC421B1DFCD01300EB562D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3866DA9F04B66F4E09135B23 /* Pods-eHealthCareAppUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = eHealthCareAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -386,6 +548,7 @@
 				55AC42181DFCD01300EB562D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55AC42191DFCD01300EB562D /* Build configuration list for PBXNativeTarget "eHealthCareAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -394,6 +557,7 @@
 				55AC421B1DFCD01300EB562D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
