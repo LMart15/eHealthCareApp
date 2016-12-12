@@ -146,6 +146,30 @@ class PatientListViewController: UIViewController {
         }
     
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        var patient:Patient?
+        
+        if segue.identifier == "patientDetailSegue" {
+            let patientDetail =  segue.destinationViewController as! PatientDetailViewController
+            
+            // Pass the selected object to the new view controller.
+            if let indexPath = self.tableView.indexPathForSelectedRow {
+                
+                if(criticalStatusView){
+                    patient = self.criticalPatients[indexPath.row]
+                }else{
+                    patient = self.allPatients[indexPath.row]
+                }
+                
+                let selectedPatient = patient
+                patientDetail.currentPatient = selectedPatient
+                patientDetail.currentIndex = indexPath.row
+                
+            }
+        }
+    }
 
 }
 
