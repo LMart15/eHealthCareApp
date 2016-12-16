@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>LiquidFloatingActionButton.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-eHealthCareApp.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,7 +42,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>61E92663190C7FFF1309969D43AB65DF</key>
+		<key>4663554FBE3F748AD850469AFA251A7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>62BDD710F761A9FAA74F4010A24BF66D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

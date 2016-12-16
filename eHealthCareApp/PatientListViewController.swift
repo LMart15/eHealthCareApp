@@ -34,6 +34,12 @@ class PatientListViewController: UIViewController {
         
         
     }
+    @IBAction func addPatient_btn(sender: AnyObject ) {
+        self.performSegueWithIdentifier("addPatientSegue", sender: self)
+    }
+    
+    
+    
     var dbRef:FIRDatabaseReference!
     var authUser: String = ""
     var authUserUid:String = ""
@@ -42,23 +48,14 @@ class PatientListViewController: UIViewController {
     var criticalPatients = [Patient]()
     let currentDateTime = NSDate()
     
-    let patient1 = Patient(patientId: "37262824", firstName: "John", lastName: "Doe", dob: "07/07/1978", gender: "M", age: "37", address: "123 Broadway lane", city: "Toronto", province: "ON", postalCode: "N9C2R2", roomNo: "243", patientCritical: true)
-    let patient2 = Patient(patientId: "38271936", firstName: "Gordon", lastName: "Smith", dob: "07/07/1983", gender: "M", age: "49", address: "3892 Yonge st", city: "Toronto", province: "ON", postalCode: "M4A9D3", roomNo: "237", patientCritical: false)
-    let patient3 = Patient(patientId: "93473924", firstName: "Jane", lastName: "Ricks", dob: "07/07/2000", gender: "F", age: "31", address: "18 Richlie Ave", city: "Toronto", province: "ON", postalCode: "M5F2R4", roomNo: "222", patientCritical: false)
-
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.title = "Patients"
         
         dbRef = FIRDatabase.database().reference().child("patient-data")
         
         initFireAuth()
-        
-//        Added some patients manually
-//        //create dbref with patientID as key
-//        let patientRef = self.dbRef.child(patient3.patientId!)
-//        
-//        //set patient data in firebase
-//        patientRef.setValue(patient3.toDictionary())
         
     }
     

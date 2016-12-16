@@ -9,6 +9,8 @@ target 'eHealthCareApp' do
     pod 'Firebase/Core'
     pod 'Firebase/Auth'
     pod ’Firebase/Database'
+    pod "LiquidFloatingActionButton"
+    
 
   target 'eHealthCareAppUITests' do
     inherit! :search_paths
